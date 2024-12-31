@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+/* Titillium Web font ^ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* should include repeating components like buttons */
+@layer components {
+    .button {
+        color: blue;
+    }
+
+    .left-nav {
+        color: red;
+    }
+}
